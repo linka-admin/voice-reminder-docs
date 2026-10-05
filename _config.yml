@@ -1,0 +1,9 @@
+title: こえリマインド
+description: 予定の時刻とその少し前に、キャラクターの声でお知らせするリマインダーアプリ
+lang: ja
+url: https://voice-reminder.linka-inc.jp
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
