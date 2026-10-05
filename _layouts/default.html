@@ -86,5 +86,11 @@
     </article>
   </main>
   <footer>© 2026 合同会社LINKA</footer>
+  <script>
+    // Links to other sites open in a new tab.
+    document.querySelectorAll('a[href^="http"]').forEach(function (link) {
+      if (link.host !== location.host) { link.target = "_blank"; link.rel = "noopener"; }
+    });
+  </script>
 </body>
 </html>
