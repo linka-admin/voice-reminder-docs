@@ -106,4 +106,4 @@ iCloud などでの同期には対応していません。iPhone 全体のバッ
 ご質問・不具合のご報告は、次のメールアドレスまでお送りください。お使いの iPhone の機種、iOS のバージョン、アプリのバージョン（設定 › このアプリについて）をお書き添えいただけると助かります。
 
 - 運営者: 合同会社LINKA
-- メール: info@linka-inc.jp
+- メール: [info@linka-inc.jp](mailto:info@linka-inc.jp)

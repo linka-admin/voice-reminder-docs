@@ -64,7 +64,7 @@ permalink: /privacy/
 本ポリシーや本アプリに関するお問い合わせは、次の連絡先までお願いします。お問い合わせの際にいただいたメールアドレスなどの情報は、回答のためだけに使用します。
 
 - 運営者: 合同会社LINKA
-- 連絡先: info@linka-inc.jp
+- 連絡先: [info@linka-inc.jp](mailto:info@linka-inc.jp)
 
 ## 9. 本ポリシーの変更
 
