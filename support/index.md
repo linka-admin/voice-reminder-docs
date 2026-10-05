@@ -114,30 +114,3 @@ iCloud などでの同期には対応していません。iPhone 全体のバッ
 
 [プライバシーポリシー](https://voice-reminder.linka-inc.jp/privacy/)
 
----
-
-## クレジット
-
-**音声: VOICEVOX**
-
-- VOICEVOX:ずんだもん
-- VOICEVOX:四国めたん
-- VOICEVOX:春日部つむぎ
-- VOICEVOX:冥鳴ひまり
-- VOICEVOX:雨晴はう
-- VOICEVOX:九州そら
-- VOICEVOX:東北ずん子
-- VOICEVOX:東北きりたん
-- VOICEVOX:東北イタコ
-- VOICEVOX:櫻歌ミコ
-- VOICEVOX:玄野武宏
-- VOICEVOX:白上虎太郎
-- VOICEVOX:剣崎雌雄
-- VOICEVOX:雀松朱司
-- VOICEVOX:麒ヶ島宗麟
-
-各キャラクターの利用規約は [VOICEVOX 公式サイト](https://voicevox.hiroshiba.jp/)をご覧ください。
-
-**天気**: Apple Weather（[データソース](https://weatherkit.apple.com/legal-attribution.html)）
-
-**祝日データ**: 内閣府「国民の祝日について」
