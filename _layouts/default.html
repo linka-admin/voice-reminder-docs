@@ -6,7 +6,20 @@
   <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  <script>
+    // Opened from the app (?app=1): no site header or footer. Remembered for links followed in the same in-app browser.
+    (function () {
+      var inApp = /[?&]app=1(&|$)/.test(location.search);
+      try {
+        if (inApp) sessionStorage.setItem("inApp", "1");
+        inApp = inApp || sessionStorage.getItem("inApp") === "1";
+      } catch (e) {}
+      if (inApp) document.documentElement.classList.add("in-app");
+    })();
+  </script>
   <style>
+    .in-app body > header, .in-app body > footer { display: none; }
+    .in-app main { padding-block-start: 16px; }
     :root {
       --bg: #f4f7fa;
       --surface: #ffffff;
