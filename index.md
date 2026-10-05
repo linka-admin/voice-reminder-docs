@@ -20,4 +20,4 @@ permalink: /
 
 お問い合わせ: info@linka-inc.jp
 
-© 2026 LINKA LLC
+© 2026 合同会社LINKA
