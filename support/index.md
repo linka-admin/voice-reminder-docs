@@ -107,6 +107,3 @@ iCloud などでの同期には対応していません。iPhone 全体のバッ
 
 - 運営者: 合同会社LINKA
 - メール: info@linka-inc.jp
-
-[プライバシーポリシー](https://voice-reminder.linka-inc.jp/privacy/)
-
