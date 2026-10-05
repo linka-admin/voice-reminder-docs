@@ -44,8 +44,8 @@ permalink: /privacy/
 | GitHub（VOICEVOX 公式の配布ページ） | 読み上げ音声データのダウンロード | 通常の通信に含まれる情報（IP アドレスなど） |
 | App Store（アプリ内課金） | 購入の処理 | Apple が処理します。当社は支払い情報を受け取りません |
 
-- Apple のプライバシーポリシー: https://www.apple.com/jp/legal/privacy/
-- GitHub のプライバシーステートメント: https://docs.github.com/ja/site-policy/privacy-policies/github-general-privacy-statement
+- [Apple のプライバシーポリシー](https://www.apple.com/jp/legal/privacy/)
+- [GitHub のプライバシーステートメント](https://docs.github.com/ja/site-policy/privacy-policies/github-general-privacy-statement)
 
 ## 5. 広告・分析・トラッキング
 

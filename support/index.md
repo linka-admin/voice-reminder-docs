@@ -109,7 +109,7 @@ iCloud などでの同期には対応していません。iPhone 全体のバッ
 - VOICEVOX:雀松朱司
 - VOICEVOX:麒ヶ島宗麟
 
-各キャラクターの利用規約は https://voicevox.hiroshiba.jp/ をご覧ください。
+各キャラクターの利用規約は [VOICEVOX 公式サイト](https://voicevox.hiroshiba.jp/)をご覧ください。
 
 **天気**: Apple Weather（[データソース](https://weatherkit.apple.com/legal-attribution.html)）
 
