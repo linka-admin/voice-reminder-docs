@@ -17,7 +17,3 @@ permalink: /
 
 - [サポート・よくある質問](/support/)
 - [プライバシーポリシー](/privacy/)
-
-お問い合わせ: info@linka-inc.jp
-
-© 2026 合同会社LINKA

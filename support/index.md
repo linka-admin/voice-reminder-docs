@@ -114,5 +114,3 @@ iCloud などでの同期には対応していません。iPhone 全体のバッ
 **天気**: Apple Weather（[データソース](https://weatherkit.apple.com/legal-attribution.html)）
 
 **祝日データ**: 内閣府「国民の祝日について」
-
-© 2026 合同会社LINKA
