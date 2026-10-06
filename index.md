@@ -10,12 +10,12 @@ permalink: /
 
 - 声で読み上げるアラームと通知（マナーモード中でも鳴るアラーム）
 - 細かい繰り返しと祝日の扱い、テンプレート
-- VOICEVOX Nemo の9声と VOICEVOX のキャラクター29人から声を選択
+- VOICEVOX Nemo の9声と VOICEVOX のキャラクター30人から声を選択
 - 時計・天気・次のリマインダーをひと目で確認、天気の読み上げ
 
 ## 利用できる声
 
-音声合成エンジン VOICEVOX の声から選べます。キャラクターによっては、ささやき・元気など複数のスタイルがあります（全83スタイル）。
+音声合成エンジン VOICEVOX の声から選べます。キャラクターによっては、ささやき・元気など複数のスタイルがあります（全87スタイル）。
 
 ### VOICEVOX Nemo
 
@@ -34,6 +34,7 @@ permalink: /
 - VOICEVOX:九州そら
 - VOICEVOX:剣崎雌雄
 - VOICEVOX:WhiteCUL
+- VOICEVOX:後鬼
 - VOICEVOX:ちび式じい
 - VOICEVOX:櫻歌ミコ
 - VOICEVOX:小夜/SAYO
