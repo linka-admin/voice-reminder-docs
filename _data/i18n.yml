@@ -1,0 +1,19 @@
+# Site text per page language (front matter `lang`, else _config.yml's `lang`).
+ja:
+  title: こえリマインド
+  description: 予定の時刻とその少し前に、キャラクターの声でお知らせするリマインダーアプリ
+  home: /
+  support: サポート
+  privacy: プライバシーポリシー
+  company: 合同会社LINKA
+  other_lang: en
+  other_lang_name: English
+en:
+  title: Voice Remind
+  description: A reminder app that tells you in a character's voice, at the time and a little before.
+  home: /en/
+  support: Support
+  privacy: Privacy Policy
+  company: LINKA LLC
+  other_lang: ja
+  other_lang_name: 日本語

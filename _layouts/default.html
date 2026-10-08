@@ -1,11 +1,17 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
 <!doctype html>
-<html lang="{{ site.lang }}">
+<html lang="{{ lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{% if page.title and page.title != t.title %}{{ page.title }} | {% endif %}{{ t.title }}</title>
+  <meta name="description" content="{{ t.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {%- if page.alternate %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ t.other_lang }}" href="{{ site.url }}{{ page.alternate }}">
+  {%- endif %}
   <script>
     // Opened from the app (?app=1): no site header or footer. Remembered for links followed in the same in-app browser.
     (function () {
@@ -41,7 +47,8 @@
     header, main, footer { max-width: 760px; margin: 0 auto; padding-inline: 20px; }
     header { padding-block: 20px 0; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: baseline; }
     header a.home { font-weight: 700; color: var(--fg); text-decoration: none; font-size: 1.05rem; }
-    nav { display: flex; gap: 16px; font-size: 0.9rem; }
+    nav { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.9rem; }
+    nav a.lang { color: var(--muted); }
     main { padding-block: 8px 40px; }
     article { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 8px 24px 24px; }
     h1 { font-size: 1.6rem; line-height: 1.4; text-wrap: balance; }
@@ -74,10 +81,13 @@
 </head>
 <body>
   <header>
-    <a class="home" href="/">{{ site.title }}</a>
+    <a class="home" href="{{ t.home }}">{{ t.title }}</a>
     <nav>
-      <a href="/support/">サポート</a>
-      <a href="/privacy/">プライバシーポリシー</a>
+      <a href="{{ t.home }}support/">{{ t.support }}</a>
+      <a href="{{ t.home }}privacy/">{{ t.privacy }}</a>
+      {%- if page.alternate %}
+      <a class="lang" href="{{ page.alternate }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_lang_name }}</a>
+      {%- endif %}
     </nav>
   </header>
   <main>
@@ -85,7 +95,7 @@
       {{ content }}
     </article>
   </main>
-  <footer>© 2026 合同会社LINKA</footer>
+  <footer>© 2026 {{ t.company }}</footer>
   <script>
     // Links to other sites open in a new tab.
     document.querySelectorAll('a[href^="http"]').forEach(function (link) {
