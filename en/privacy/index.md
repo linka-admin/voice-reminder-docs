@@ -59,7 +59,7 @@ The App shows ads with Google AdMob, Google's ad service.
 - To show ads and measure them, Google collects information about your device (IP address, device and OS type, app information, ad views and taps and so on)
 - Only if you allow "Allow Apps to Request to Track" does the App use the advertising identifier (IDFA) to show ads based on your interests (personalized ads). Otherwise, ads are not personalized
 - You can change tracking at any time in the Settings app › Privacy & Security › Tracking
-- In the European Economic Area, the UK and Switzerland, the App asks for your consent before showing ads, as the law requires. You can change your choices at any time with "Ad Privacy Settings" in the App's Settings › Premium
+- In the European Economic Area, the UK and Switzerland, the App asks for your consent before showing ads, as the law requires. You can change your choices at any time with "Ad Privacy Settings" in the App's Settings › Other
 - In some US states, you can ask, with the same "Ad Privacy Settings", that your personal information not be sold or shared for advertising
 - With Premium (a monthly or yearly subscription), no ads are shown and no information is sent for them
 - We don't receive information that identifies you from what Google collects
