@@ -85,7 +85,7 @@ The App uses its alarm, notification, Live Activity and Background App Refresh p
 
 ## 8. Children
 
-The App is not made for children, but so that people of any age can use it safely, it shows only ads suitable for all ages. We don't collect personal information from children under 13.
+The App is not made for children. We don't collect personal information from children under 13.
 
 ## 9. Contact
 
@@ -98,4 +98,5 @@ For questions about this policy or the App, please contact us below. We use your
 
 We may change this policy when needed. We'll announce important changes on this page or in the App's update notes. A changed policy takes effect when it's posted on this page.
 
-Established: October 5, 2026
+Established: October 5, 2026  
+Last updated: October 9, 2026
