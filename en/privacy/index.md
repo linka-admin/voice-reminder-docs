@@ -98,5 +98,4 @@ For questions about this policy or the App, please contact us below. We use your
 
 We may change this policy when needed. We'll announce important changes on this page or in the App's update notes. A changed policy takes effect when it's posted on this page.
 
-Established: October 5, 2026  
-Last updated: October 9, 2026
+Established: October 5, 2026
