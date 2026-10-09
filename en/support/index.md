@@ -6,9 +6,9 @@ permalink: /en/support/
 alternate: /support/
 ---
 
-# Voice Remind Support
+# Koe Remind Support
 
-"Leaving in ten minutes." Voice Remind is a reminder app that tells you in a character's voice, at the time and a little before.
+"Leaving in ten minutes." Koe Remind is a reminder app that tells you in a character's voice, at the time and a little before.
 
 - Requires: iPhone with iOS 18 or later (alarms that ring in Silent mode need iOS 26.1 or later)
 - Languages: English and Japanese (follows your iPhone's language)
@@ -33,7 +33,7 @@ alternate: /support/
 Please check the following.
 
 1. **iOS version**: alarms need iOS 26.1 or later. On earlier versions, every reminder comes as a notification
-2. **Alarms and notifications allowed**: in the Settings app › Apps › Voice Remind, check that alarms and notifications are on. You can also see them in the app's Settings › About This App
+2. **Alarms and notifications allowed**: in the Settings app › Apps › Koe Remind, check that alarms and notifications are on. You can also see them in the app's Settings › About This App
 3. **The reminder is on**: check its switch in the list. A "Once" reminder turns itself off after it rings
 4. **Holidays**: a reminder set to skip holidays doesn't ring on them
 5. **Not opened for a while**: the app schedules the next ones when you open it or stop an alarm. With Background App Refresh on, it keeps them scheduled even on days you don't open it

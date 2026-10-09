@@ -6,9 +6,9 @@ permalink: /en/privacy/
 alternate: /privacy/
 ---
 
-# Voice Remind Privacy Policy
+# Koe Remind Privacy Policy
 
-LINKA LLC ("we") sets out below how the iPhone app "Voice Remind" (こえリマインド, "the App") handles information about its users. This English version is a translation; if it differs from the [Japanese version](/privacy/), the Japanese version prevails.
+LINKA LLC ("we") sets out below how the iPhone app "Koe Remind" (こえリマインド, "the App") handles information about its users. This English version is a translation; if it differs from the [Japanese version](/privacy/), the Japanese version prevails.
 
 ## 1. Our approach
 

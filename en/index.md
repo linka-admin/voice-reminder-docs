@@ -1,14 +1,14 @@
 ---
 layout: default
 lang: en
-title: Voice Remind
+title: Koe Remind
 permalink: /en/
 alternate: /
 ---
 
-# Voice Remind
+# Koe Remind
 
-"Leaving in ten minutes." Voice Remind is an iPhone reminder app that tells you in a character's voice, at the time and a little before.
+"Leaving in ten minutes." Koe Remind is an iPhone reminder app that tells you in a character's voice, at the time and a little before.
 
 - Alarms and notifications read aloud (alarms ring even in Silent mode)
 - Detailed repeats, holidays and templates
