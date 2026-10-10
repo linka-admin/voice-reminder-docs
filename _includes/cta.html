@@ -1,0 +1,7 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- if site.released -%}
+<a class="store-badge" data-cta href="https://apps.apple.com/{{ t.store_locale }}/app/id{{ site.app_store_id }}"><img src="https://tools.applemarketingtools.com/api/badges/download-on-the-app-store/black/{{ t.badge_locale }}?size=250x83" alt="{{ t.badge_alt }}" width="162" height="54"></a>
+{%- else -%}
+<span class="soon" data-cta>{{ t.coming_soon }}</span>
+{%- endif -%}

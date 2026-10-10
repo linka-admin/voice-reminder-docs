@@ -1,0 +1,12 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+  <header class="site-header">
+    <a class="home" href="{{ t.home }}"><span class="mark" aria-hidden="true"><i><b style="height:8px"></b><b style="height:14px"></b><b style="height:10px"></b><b style="height:16px"></b></i></span>{{ t.title }}</a>
+    <nav>
+      <a href="{{ t.home }}support/">{{ t.support }}</a>
+      <a href="{{ t.home }}privacy/">{{ t.privacy }}</a>
+      {%- if page.alternate %}
+      <a class="lang" href="{{ page.alternate }}" hreflang="{{ t.other_lang }}" lang="{{ t.other_lang }}">{{ t.other_lang_name }}</a>
+      {%- endif %}
+    </nav>
+  </header>

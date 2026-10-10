@@ -8,6 +8,12 @@ ja:
   company: 合同会社LINKA
   other_lang: en
   other_lang_name: English
+  coming_soon: App Store で近日公開
+  badge_alt: App Store からダウンロード
+  badge_locale: ja-jp
+  store_locale: jp
+  play: 再生
+  stop: 停止
 en:
   title: Koe Remind
   description: A reminder app that tells you in a character's voice, at the time and a little before.
@@ -17,3 +23,9 @@ en:
   company: LINKA LLC
   other_lang: ja
   other_lang_name: 日本語
+  coming_soon: Coming soon to the App Store
+  badge_alt: Download on the App Store
+  badge_locale: en-us
+  store_locale: us
+  play: Play
+  stop: Stop

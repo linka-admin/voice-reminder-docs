@@ -7,3 +7,15 @@ kramdown:
   input: GFM
 exclude:
   - README.md
+  - package.json
+  - bun.lock
+  - tsconfig.json
+  - biome.json
+  - mise.toml
+  - tests
+  - scripts
+  - bunfig.toml
+  - _site
+# App Store: the app's id, and whether it's out yet (false shows "coming soon" in place of the App Store badge).
+app_store_id: 6818977423
+released: false

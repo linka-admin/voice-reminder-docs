@@ -1,0 +1,33 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != t.title %}{{ page.title }} | {% endif %}{{ t.title }}</title>
+  <meta name="description" content="{{ t.description }}">
+  <meta name="theme-color" content="#1a64dc">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | default: t.title }}">
+  <meta property="og:description" content="{{ t.description }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/og-{{ lang }}.png">
+  <meta name="twitter:card" content="summary_large_image">
+  {%- if site.released %}
+  <meta name="apple-itunes-app" content="app-id={{ site.app_store_id }}">
+  {%- endif %}
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {%- if page.alternate %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ page.url }}">
+  <link rel="alternate" hreflang="{{ t.other_lang }}" href="{{ site.url }}{{ page.alternate }}">
+  {%- endif %}
+  <script>
+    // Opened from the app (?app=1): no site header or footer. Remembered for links followed in the same in-app browser.
+    (function () {
+      var inApp = /[?&]app=1(&|$)/.test(location.search);
+      try {
+        if (inApp) sessionStorage.setItem("inApp", "1");
+        inApp = inApp || sessionStorage.getItem("inApp") === "1";
+      } catch (e) {}
+      if (inApp) document.documentElement.classList.add("in-app");
+    })();
+  </script>
+  <link rel="stylesheet" href="/assets/site.css?v={{ site.time | date: '%s' }}">

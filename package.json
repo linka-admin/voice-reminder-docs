@@ -1,0 +1,17 @@
+{
+  "name": "voice-reminder-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "jekyll build -q -d _site",
+    "test": "bun test",
+    "lint": "biome check .",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.4",
+    "@types/bun": "^1.4.2",
+    "playwright": "1.64.0",
+    "typescript": "5.9.2"
+  }
+}

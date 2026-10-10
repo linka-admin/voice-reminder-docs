@@ -1,0 +1,163 @@
+# The top page's text per language (_layouts/home.html). Every quoted line is one the app actually speaks.
+# Screenshots are assets/shots/<lang>/<shot>.jpg (a feature shows a square of it at `focus`, a CSS object-position); clips are assets/voices/<id>.m4a (the same Japanese clips on both pages).
+ja:
+  hero:
+    title: 時間になったら<br><em>声</em>でお知らせ
+    lead: 予定の時刻と、その少し前に。ずんだもんたちキャラクターの声が読み上げる、iPhone のリマインダーです。
+    listen: 声を聴く
+    shot: 1-home
+  samples:
+    title: <em>41</em>の声から選べる
+    more: ほかに VOICEVOX のキャラクターと Nemo の声、iPhone の声も。キャラクターらしい口調で話す「キャラの口調」つき。
+    items:
+      - id: zundamon
+        name: ずんだもん
+        line: 「薬の時間なのだ！」
+      - id: metan
+        name: 四国めたん
+        line: 「出発まであと10分ね。準備はいいかしら？」
+      - id: tsumugi
+        name: 春日部つむぎ
+        line: 「ゴミ出しの時間だよっ！」
+      - id: nemo-f6
+        name: 女声6（Nemo）
+        line: 「起床の時間です」
+  features:
+    title: 毎日の用事を、<em>声</em>で
+    items:
+      - title: 時間になったら声でお知らせ
+        detail: 画面を見なくても、声で何の時間かわかります。止めるまで読み上げを繰り返すアラームで、マナーモード中でも鳴ります。
+        shot: 1-home
+        focus: 50% 45%
+      - title: 10分前も、5分前も声で予告
+        detail: 「出発まであと30分です」。予定の前に、何分前でも何回でも声でお知らせします。
+        shot: 3-editor
+        focus: 50% 76%
+      - title: 時刻も天気も読み上げ
+        detail: 起床のアラームを止めたら、今日の天気をお知らせ。「傘はいりません」まで声で教えてくれます。
+        shot: 1-home
+        focus: 50% 6%
+      - title: リマインダーごとに声を選べる
+        detail: 薬は落ち着いた声、出発は元気な声。ささやき・元気などのスタイルも選べます（プレミアムプラン）。
+        shot: 4-voices
+        focus: 50% 0%
+      - title: 繰り返しは祝日もおまかせ
+        detail: 毎日・平日・隔週・毎月の第2火曜など。祝日はお休みにもできます。
+        shot: 2-list
+        focus: 50% 0%
+      - title: テンプレートですぐ登録
+        detail: 起床・薬・出発・ゴミ出し・会議。よく使う設定は自分のテンプレートにも。
+        shot: 5-templates
+        focus: 50% 0%
+  plans:
+    title: <em>無料</em>ではじめられます
+    items:
+      - name: 無料
+        points:
+          - リマインダー5件まで
+          - 自分のテンプレート1件まで
+          - 41の声はすべて無料
+          - 広告が表示されます
+      - name: プレミアムプラン
+        points:
+          - 広告なし
+          - リマインダーとテンプレートが無制限
+          - リマインダーごとに声を選べる
+          - 声のスタイルとキャラの口調
+    note: プレミアムプランはアプリ内課金の月額・年額プランです。アカウント登録は不要です。
+  faq:
+    title: よくある質問
+    items:
+      - q: マナーモードでも鳴りますか？
+        a: 予定の時刻のアラームは、マナーモードや集中モード中でも声で鳴ります（iOS 26.1 以降）。「あと何分」の通知は、マナーモード中は振動だけになります。
+      - q: リマインダーの内容が外部に送られませんか？
+        a: 読み上げの音声は iPhone の中で作るので、リマインダーの内容が外部に送られることはありません。
+      - q: 対応している iPhone は？
+        a: iOS 18 以降の iPhone で使えます。マナーモード中でも鳴るアラームは iOS 26.1 以降です。
+    more: ほかの質問はサポートページへ
+  closing:
+    title: 今日から、<em>声</em>でリマインド
+  credits:
+    title: 声のクレジット
+    intro: 音声合成エンジン VOICEVOX の声と、iPhone に入っている声を使っています。
+
+en:
+  hero:
+    title: Reminders that<br><em>speak</em> to you
+    lead: At the time and a little before. An iPhone reminder app that tells you in a voice, from your iPhone's own to Japanese characters like Zundamon.
+    listen: Hear a voice
+    shot: 1-home
+  samples:
+    title: Pick from <em>41</em> voices
+    more: Plus more VOICEVOX characters, VOICEVOX Nemo and your iPhone's own voices. The samples are in Japanese, as the characters say them.
+    items:
+      - id: zundamon
+        name: Zundamon
+        line: "“It's time for your medicine!”"
+      - id: metan
+        name: Shikoku Metan
+        line: "“Ten minutes until you leave. Ready?”"
+      - id: tsumugi
+        name: Kasukabe Tsumugi
+        line: "“Time to take out the trash!”"
+      - id: nemo-f6
+        name: Female 6 (Nemo)
+        line: "“It's time to wake up.”"
+  features:
+    title: Everyday tasks, <em>out loud</em>
+    items:
+      - title: Reminders that speak to you
+        detail: Know what it's time for without looking. Alarms repeat until you stop them, and ring even in Silent mode.
+        shot: 1-home
+        focus: 50% 45%
+      - title: Heads-ups minutes before
+        detail: "“Leave in thirty minutes.” As many heads-ups as you like, as early as you like."
+        shot: 3-editor
+        focus: 50% 76%
+      - title: Time and weather, read aloud
+        detail: Stop your wake-up alarm and hear today's weather, down to “No umbrella needed.”
+        shot: 1-home
+        focus: 50% 6%
+      - title: A voice for each reminder
+        detail: A calm voice for medicine, a cheerful one for heading out. Styles such as whispering too (Premium).
+        shot: 4-voices
+        focus: 50% 0%
+      - title: Repeats that skip holidays
+        detail: Daily, weekdays, every other week, the second Tuesday of the month. Skip holidays in 21 countries.
+        shot: 2-list
+        focus: 50% 0%
+      - title: Start from a template
+        detail: Wake up, medicine, leave, trash, meeting. Save your own settings as a template too.
+        shot: 5-templates
+        focus: 50% 0%
+  plans:
+    title: Free to <em>start</em>
+    items:
+      - name: Free
+        points:
+          - Up to 5 reminders
+          - 1 template of your own
+          - All 41 voices, free
+          - Shows ads
+      - name: Premium
+        points:
+          - No ads
+          - Unlimited reminders and templates
+          - A voice for each reminder
+          - Voice styles and in-character speech
+    note: Premium is a monthly or yearly in-app subscription. No account needed.
+  faq:
+    title: Questions
+    items:
+      - q: Does it ring in Silent mode?
+        a: Alarms at the time ring out loud even in Silent mode or a Focus (iOS 26.1 or later). Heads-up notifications only vibrate in Silent mode.
+      - q: Does what my reminders say leave my iPhone?
+        a: No. Speech is made on your iPhone, so what your reminders say is never sent anywhere.
+      - q: Which iPhones does it work on?
+        a: iPhones with iOS 18 or later. Alarms that ring in Silent mode need iOS 26.1 or later.
+    more: More on the support page
+  closing:
+    title: Start hearing your <em>reminders</em>
+  credits:
+    title: Voice credits
+    intro: Voices from the VOICEVOX speech engine and your iPhone. The VOICEVOX credits are in the form their terms ask for.

@@ -1,0 +1,138 @@
+{%- assign lang = page.lang | default: site.lang -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign h = site.data.home[lang] -%}
+{%- assign wave = '<span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>' -%}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+{% include head.html %}
+</head>
+<body class="lp">
+  <div class="lp-top">
+{% include header.html %}
+    <section class="hero">
+      <div class="inner">
+        <div>
+          <h1>{{ h.hero.title }}</h1>
+          <p class="lead">{{ h.hero.lead }}</p>
+          <div class="ctas">
+            {% include cta.html %}
+            <button class="listen" type="button" aria-pressed="false" data-play="/assets/voices/{{ h.samples.items[0].id }}.m4a">{{ wave }}{{ h.hero.listen }}</button>
+          </div>
+        </div>
+        <div class="phone">
+          <div class="screen"><img src="/assets/shots/{{ lang }}/{{ h.hero.shot }}.jpg" alt="" width="600" height="1304"></div>
+          <span class="bubble" aria-hidden="true">{{ wave }}{{ h.samples.items[0].line }}</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main>
+    <section class="lp-samples">
+      <div class="inner">
+        <h2>{{ h.samples.title }}</h2>
+        <ul class="samples">
+          {%- for s in h.samples.items %}
+          <li class="sample" data-sample>
+            <b>{{ s.name }}</b>
+            <q>{{ s.line }}</q>
+            <button type="button" aria-pressed="false" data-play="/assets/voices/{{ s.id }}.m4a" aria-label="{{ t.play }}: {{ s.name }}">{{ wave }}{{ t.play }}</button>
+          </li>
+          {%- endfor %}
+        </ul>
+        <p class="more">{{ h.samples.more }}</p>
+      </div>
+    </section>
+
+    <section class="lp-features">
+      <div class="inner">
+        <h2>{{ h.features.title }}</h2>
+        <div class="features">
+          {%- for f in h.features.items %}
+          <div class="feature">
+            <div class="crop"><img src="/assets/shots/{{ lang }}/{{ f.shot }}.jpg" alt="" width="600" height="1304" loading="lazy" style="object-position: {{ f.focus }}"></div>
+            <h3><span class="no">{{ forloop.index | prepend: '0' }}</span>{{ f.title }}</h3>
+            <p>{{ f.detail }}</p>
+          </div>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section class="lp-plans">
+      <div class="inner">
+        <h2>{{ h.plans.title }}</h2>
+        <div class="plans">
+          {%- for p in h.plans.items %}
+          <div class="plan{% if forloop.last %} premium{% endif %}">
+            <h3>{{ p.name }}</h3>
+            <ul>{% for point in p.points %}<li>{{ point }}</li>{% endfor %}</ul>
+          </div>
+          {%- endfor %}
+        </div>
+        <p class="note">{{ h.plans.note }}</p>
+      </div>
+    </section>
+
+    <section class="lp-faq">
+      <div class="inner">
+        <h2>{{ h.faq.title }}</h2>
+        {%- for f in h.faq.items %}
+        <details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>
+        {%- endfor %}
+        <p class="more"><a href="{{ t.home }}support/">{{ h.faq.more }}</a></p>
+      </div>
+    </section>
+
+    <section class="lp-closing">
+      <div class="inner">
+        <h2>{{ h.closing.title }}</h2>
+        <div class="ctas">{% include cta.html %}</div>
+      </div>
+    </section>
+
+    <section class="lp-credits">
+      <div class="inner">
+        <details data-credits>
+          <summary>{{ h.credits.title }}</summary>
+          <p>{{ h.credits.intro }}</p>
+          <h4>VOICEVOX Nemo</h4>
+          <ul>{% for v in site.data.voices.nemo %}<li>{{ v }}</li>{% endfor %}</ul>
+          <h4>VOICEVOX</h4>
+          <ul>{% for v in site.data.voices.characters %}<li>{{ v }}</li>{% endfor %}</ul>
+        </details>
+      </div>
+    </section>
+  </main>
+{% include footer.html %}
+  <script>
+    // Voice samples: one clip at a time; the button shows it's playing until the clip ends or is pressed again.
+    (function () {
+      var audio = new Audio();
+      var current = null;
+      function reset() {
+        if (!current) return;
+        current.setAttribute("aria-pressed", "false");
+        current.classList.remove("playing");
+        current = null;
+      }
+      audio.addEventListener("ended", reset);
+      document.querySelectorAll("[data-play]").forEach(function (button) {
+        button.addEventListener("click", function () {
+          var same = current === button;
+          audio.pause();
+          reset();
+          if (same) return;
+          current = button;
+          button.setAttribute("aria-pressed", "true");
+          button.classList.add("playing");
+          audio.src = button.getAttribute("data-play");
+          audio.currentTime = 0;
+          audio.play().catch(reset);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
