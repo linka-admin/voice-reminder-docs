@@ -12,17 +12,19 @@ LINKA LLC ("we") sets out below how the iPhone app "Koe Remind" (こえリマイ
 
 ## 1. Our approach
 
-The App works without an account. Through the App, we don't collect personal information such as your name or email address. To show ads, an ad service (Google AdMob) collects information about your device (see "5. Ads and tracking").
+The App works without an account. Through the App, we don't collect personal information such as your name or email address. To show ads, an ad service (Google AdMob) collects information about your device (see "5. Ads and tracking"). To improve the App, we also collect usage statistics that don't identify you (see "6. Usage analytics").
 
 ## 2. Information kept on your iPhone
 
-The following stays on your iPhone only and is never sent to us.
+The following stays on your iPhone only and is never sent to us or anyone else.
 
 - Your reminders (titles, times, repeats, alert settings and so on)
 - Templates and the App's settings (voice, clock display, weather place and so on)
 - Voice data, and the sound files made on your iPhone
 
 Speech is made on your iPhone, with VOICEVOX voices and iPhone voices alike, so your reminder titles are never sent anywhere.
+
+For usage analytics, though, the kinds of settings your reminders have (voice, kind of repeat and so on) and a usage category decided on your iPhone from each title (medicine, trash and so on) are sent as statistics. The titles themselves are never sent (see "6. Usage analytics").
 
 Deleting the App erases this information from your iPhone. The App doesn't sync to iCloud or elsewhere (it may be included in a backup of your whole iPhone).
 
@@ -45,6 +47,7 @@ To provide its features, the App communicates with the services below. Each hand
 | Apple MapKit | Searching for places, showing place names | What you search for, your approximate location |
 | GitHub (VOICEVOX's official downloads) | Downloading voice data | What any connection carries (such as your IP address) |
 | Google AdMob | Showing ads and measuring them | IP address, device and OS type, app information, ad views and taps, advertising identifier (only if you allow it) |
+| Google Analytics for Firebase | Usage analytics | App instance ID, device and OS type, what you do in the App and the kinds of settings (no titles), approximate region estimated from your IP address |
 | App Store (in-app purchase) | Processing Premium (subscription) purchases | Handled by Apple; we don't receive payment information |
 
 - [Apple Privacy Policy](https://www.apple.com/legal/privacy/)
@@ -63,38 +66,49 @@ The App shows ads with Google AdMob, Google's ad service.
 - In some US states, you can ask, with the same "Ad Privacy Settings", that your personal information not be sold or shared for advertising
 - With Premium (a monthly or yearly subscription), no ads are shown and no information is sent for them
 - We don't receive information that identifies you from what Google collects
-- The App doesn't use analytics tools
 
-## 6. Your rights outside Japan
+## 6. Usage analytics
+
+To improve the App, we collect statistics on how its features are used, with Google Analytics for Firebase, a Google service.
+
+- What is sent: what you do in the App (saving a reminder, using a template, opening the store, tapping an ad and so on), the kinds of settings a reminder has (the kind of repeat, the number and minutes of alerts, the hour, the kind of voice and so on), a usage category decided on your iPhone from the title (medicine, trash, leaving and so on), the App's version, device and OS type, the App's language, and an identifier Firebase issues for the App on your device (the app instance ID)
+- What is never sent: reminder titles or anything else you type, exact times, your location (coordinates or place names), the advertising identifier (IDFA), your name or email address
+- Google estimates your approximate region from your IP address
+- Analytics information is shared with Google AdMob to measure ads. It is not used to personalize ads (ads based on your interests)
+- You can stop it by turning off "Share Usage Data" in the App's Settings › Other
+- In the European Economic Area, the UK and Switzerland, it is sent only if you consent on the consent screen described in "5. Ads and tracking"
+- The information is processed and stored on Google's servers (such as in the United States) and deleted under the Google Analytics settings (individual data is kept for 2 months)
+
+## 7. Your rights outside Japan
 
 The App is also offered outside Japan. Under the laws where you live (such as the EU General Data Protection Regulation (GDPR), the UK GDPR and US state privacy laws), you have the right to:
 
 - Ask for access to, correction of, deletion of, or a stop to the use of the personal information we hold about you
-- Withdraw your consent to the use of information for ads at any time (as described in "5. Ads and tracking")
+- Withdraw your consent to the use of information for ads and usage analytics at any time (as described in "5. Ads and tracking" and "6. Usage analytics")
 - Complain to the supervisory authority in your country
 
-Through the App, we don't collect or hold personal information about you (apart from what you send us when you contact us). Information on your iPhone is erased when you delete the App. For information Google AdMob collected, you can ask Google for access or deletion as described in [Google's Privacy Policy](https://policies.google.com/privacy?hl=en).
+Through the App, we don't collect or hold information that identifies you, such as your name or email address (apart from what you send us when you contact us). Usage analytics information is stored in Google Analytics as statistics tied to the app instance ID. Information on your iPhone is erased when you delete the App. For information Google AdMob and Google Analytics collected, you can ask Google for access or deletion as described in [Google's Privacy Policy](https://policies.google.com/privacy?hl=en).
 
-In the European Economic Area, the UK and Switzerland, information is used for ads on the basis of your consent. Information sent to external services may be processed outside your country, such as in Japan or the United States. Each service applies appropriate safeguards under its own privacy policy.
+In the European Economic Area, the UK and Switzerland, information is used for ads and usage analytics on the basis of your consent. Information sent to external services may be processed outside your country, such as in Japan or the United States. Each service applies appropriate safeguards under its own privacy policy.
 
-To exercise your rights or ask about how your personal information is handled, please use the contact in "9. Contact".
+To exercise your rights or ask about how your personal information is handled, please use the contact in "10. Contact".
 
-## 7. Alarm, notification and other permissions
+## 8. Alarm, notification and other permissions
 
 The App uses its alarm, notification, Live Activity and Background App Refresh permissions only to alert you to your reminders on time. Nothing obtained through them is sent anywhere.
 
-## 8. Children
+## 9. Children
 
 The App is not made for children. We don't collect personal information from children under 13.
 
-## 9. Contact
+## 10. Contact
 
 For questions about this policy or the App, please contact us below. We use your email address and anything else you send only to reply to you.
 
 - Operator: LINKA LLC
 - Contact: [info@linka-inc.jp](mailto:info@linka-inc.jp)
 
-## 10. Changes to this policy
+## 11. Changes to this policy
 
 We may change this policy when needed. We'll announce important changes on this page or in the App's update notes. A changed policy takes effect when it's posted on this page.
 
