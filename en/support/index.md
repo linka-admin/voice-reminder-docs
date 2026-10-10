@@ -90,9 +90,9 @@ iOS alarms vibrate until you stop them, with no setting to turn it off. Choose "
 <details markdown="1">
 <summary>Which holidays does it know?</summary>
 
-The app knows Japan's holidays. In Settings › Clock › Holidays, choose "Device setting" (Japan's holidays when your iPhone's region is Japan, none elsewhere), "None" or "Japan".
+The app knows the public holidays of 21 countries: Japan, the United States, the United Kingdom, Canada, Australia, New Zealand, Ireland, Singapore, South Korea, Taiwan, Hong Kong, India, the Philippines, Malaysia, Thailand, Indonesia, Germany, France, Spain, Italy and the Netherlands. In Settings › Clock › Holidays, choose "Device setting" (your iPhone's region when it is one of these, otherwise none), "None" or a country. Only nationwide holidays are used, not those of a state or region.
 
-Japan's holidays come with the app as published by the Cabinet Office (currently through 2027). Later years follow the current holiday law and the equinox formulas. Changes in the law or one-off holidays come with app updates.
+Holidays through 2050 come with the app, generated from the open-source python-holidays (Japan's are checked against the Cabinet Office's published list). Changes in the law, one-off holidays, and the confirmed dates of holidays set by the moon come with app updates.
 
 </details>
 
