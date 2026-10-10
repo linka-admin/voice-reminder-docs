@@ -108,7 +108,7 @@ Your reminders and settings are kept only on your iPhone. Deleting the app erase
 
 To improve the app, how its features are used (the kinds of reminder settings, the kind of voice, template use and so on) is sent to Google Analytics for Firebase as statistics that don't identify you. Reminder titles and your location are never sent.
 
-To stop it, turn off "Share Usage Data" in the app's Settings › Other. See "6. Usage analytics" in the [Privacy Policy](/en/privacy/) for details.
+To stop it, turn off "Share Usage Data" in the app's Settings › Other › About This App. See "6. Usage analytics" in the [Privacy Policy](/en/privacy/) for details.
 
 </details>
 

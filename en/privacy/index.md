@@ -75,7 +75,7 @@ To improve the App, we collect statistics on how its features are used, with Goo
 - What is never sent: reminder titles or anything else you type, exact times, your location (coordinates or place names), the advertising identifier (IDFA), your name or email address
 - Google estimates your approximate region from your IP address
 - Analytics information is shared with Google AdMob to measure ads. It is not used to personalize ads (ads based on your interests)
-- You can stop it by turning off "Share Usage Data" in the App's Settings › Other
+- You can stop it by turning off "Share Usage Data" in the App's Settings › Other › About This App
 - In the European Economic Area, the UK and Switzerland, it is sent only if you consent on the consent screen described in "5. Ads and tracking"
 - The information is processed and stored on Google's servers (such as in the United States) and deleted under the Google Analytics settings (individual data is kept for 2 months)
 
