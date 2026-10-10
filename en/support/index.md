@@ -99,7 +99,16 @@ Japan's holidays come with the app as published by the Cabinet Office (currently
 <details markdown="1">
 <summary>How do I delete my data?</summary>
 
-Your reminders and settings are kept only on your iPhone. Deleting the app erases them all; nothing is left on our servers.
+Your reminders and settings are kept only on your iPhone. Deleting the app erases them all; nothing is left on our servers (usage statistics are deleted under the Google Analytics settings).
+
+</details>
+
+<details markdown="1">
+<summary>What information is sent?</summary>
+
+To improve the app, how its features are used (the kinds of reminder settings, the kind of voice, template use and so on) is sent to Google Analytics for Firebase as statistics that don't identify you. Reminder titles and your location are never sent.
+
+To stop it, turn off "Share Usage Data" in the app's Settings › Other. See "6. Usage analytics" in the [Privacy Policy](/en/privacy/) for details.
 
 </details>
 
